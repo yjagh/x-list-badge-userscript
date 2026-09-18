@@ -1,19 +1,19 @@
 // ==UserScript==
 // @name         X List 成员标注
 // @namespace    yjli.x.listbadge
-// @version      1.20260913.1930
+// @version      1.20260918.1930
 // @description  浏览 x.com 时，给 List 1890215711097974970 中的成员：头像加圆环、@用户名后加 ★ 徽章
 // @match        https://x.com/*
 // @match        https://twitter.com/*
 // @run-at       document-idle
 // @grant        none
-// @x-list-hash  7f10e2f71b96109e
+// @x-list-hash  88da1bde54c24c93
 // @x-list-generator  3
 // @license      MIT
 // ==/UserScript==
 //
 // 本文件由自动任务根据 X List 成员名单生成，请勿手改。
-// 名单：148 个成员，更新于 2026-09-13 19:30
+// 名单：149 个成员，更新于 2026-09-18 19:30
 
 (function () {
     'use strict';
@@ -22,7 +22,6 @@
         "96c06b019b71751260fdd8f13bb1130ba753ffb43b0db575f2ddc77c0bc4bbd3",
         "af917e73e8229acd58daa7702bf93a80411064f03c47db16eff05125f5f9e355",
         "f2043538b12afa9e7ab947af3cb947cedb0390bb5da7b75c111f9c69c6b1e52c",
-        "48897650a8fb684efd38176e48dad3905f06189783313c69844ecd70509299ac",
         "5338408151416c5eac9e21995f180df295ffe5e9c45992462690d0af4b7462d2",
         "f45f0785c27a0d4d3a400237235d79eb9c16ffd896ec4fc681073c74e352b1a7",
         "80f4a2adbe69ef0ffc56627dc03f98a7fc3ba76885c2068c44baffd4ec5053df",
@@ -108,6 +107,7 @@
         "09cdd9cbab31f4873bf22aee2c6854fac08ed35191bb417b286515cd752bef13",
         "98e45a0851536dd82d558306c2cfbfca367d30a31f47865a368359201c20af25",
         "7ece0564de6290a8fd82b5e0c7060e72653cc5ab9ce3934af43e2b5c907ec70c",
+        "d82f95a3abf60ed00dd79eec3f1d5c297f08ac56eaa44b8af03fece30d9c8006",
         "c1cf810cf402e430b063ca1845a08dcec989d85423ba6a8f126e04a7d6903019",
         "5ca2555aef23781bd742fceda3769188a9174b51e35df91abb306009addd8172",
         "cc2777eb28edd233c917059e9685f6369473dcae17fa2eb8eb4bfa11af826daf",
@@ -160,6 +160,7 @@
         "188746f796fcb4b85753f314688469c4414a98131098b9b841da9f0311680d59",
         "55fdc4f8dca4a7011c26ce380c0e6005841bde73a05afb5aaa026d93ab5066cd",
         "0824aa019dae498d470d35ab2ec3d24b6ffd6a6337bee976b1dd8c207c0415ef",
+        "28bb25230bb2895518bb84bcb4f73f8a4e0e7de132347684d94fed98bc1b81ce",
         "3c47cf04466aaf07d33debfec0806d0453df344811c4d22deaa42e7d596ba937",
         "842bd8c0a03bc0d34fe0b1d4a7c48395068fe802ad57d9c23206ceaf00438249",
         "858c5cb74d59df2eda8d7a9fa26723ad186ba6a3d349b85ee2797c4b966867ca",
