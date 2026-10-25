@@ -1,25 +1,26 @@
 // ==UserScript==
 // @name         X List 成员标注
 // @namespace    yjli.x.listbadge
-// @version      1.20261023.1930
+// @version      1.20261025.1930
 // @description  浏览 x.com 时，给 List 1890215711097974970 中的成员：头像加圆环、@用户名后加 ★ 徽章
 // @match        https://x.com/*
 // @match        https://twitter.com/*
 // @run-at       document-idle
 // @grant        none
-// @x-list-hash  fa90a1a5d8181130
+// @x-list-hash  091b306d76f65172
 // @x-list-generator  3
 // @license      MIT
 // ==/UserScript==
 //
 // 本文件由自动任务根据 X List 成员名单生成，请勿手改。
-// 名单：146 个成员，更新于 2026-10-23 19:30
+// 名单：145 个成员，更新于 2026-10-25 19:30
 
 (function () {
     'use strict';
 
     const MEMBER_HASHES = new Set([
         "6ca87c3e82623b5a20b1bf361cf8f1087533cc1c16ec42d294081c202b1e550d",
+        "23283c5a6609ee02c140a5d20cdf06db00bb7c2292b301a8f8f43380d8094b92",
         "96c06b019b71751260fdd8f13bb1130ba753ffb43b0db575f2ddc77c0bc4bbd3",
         "af917e73e8229acd58daa7702bf93a80411064f03c47db16eff05125f5f9e355",
         "f2043538b12afa9e7ab947af3cb947cedb0390bb5da7b75c111f9c69c6b1e52c",
@@ -27,7 +28,6 @@
         "f45f0785c27a0d4d3a400237235d79eb9c16ffd896ec4fc681073c74e352b1a7",
         "80f4a2adbe69ef0ffc56627dc03f98a7fc3ba76885c2068c44baffd4ec5053df",
         "4157053d225c7aafbbd65f4fe96809a2d25594fa548d2391748b5cfbcc9e466e",
-        "b17e8ff05ca424123265df554791de52ae599e274e73674c42b32ba9ba473d43",
         "58e90f17fc48b606fe82dfc86a30c6726a058d0db58ca7a86ff211d97c267fc1",
         "565a55c5e9fe7d73338ec2256d966ecb538be15ee2de96e54e3a035b6ea20165",
         "f345c5662fb8fcaa425b42bb4274e579b28625bb71d4a6503b62b348ccb8cf02",
@@ -51,7 +51,6 @@
         "5a7f40ddd816cba2c99eec66f422328f064d5d342d2c6755859aa1deea4c17b5",
         "a1367fbe0c4a5ed23840d1c82f1d8cef67e3f31d8018beded2e06b4c641aa97b",
         "4dead3b72cd4c291f160560a36b64d9361100e4c2cd50ef4a778718d31167ed1",
-        "2afbf15c5504ecf4c455062fd5d79391a2065daa4461afd485ff9d36fe568678",
         "872bb12a07c6319dee090f4c25bed8e013c3b08178d3cff4a303b9cc9eb32121",
         "892db6aebe70b85e2a22a109507caedf01088c7f4ddcd470dbbce9a59f2bfd4d",
         "d32e24dd7cd4ba602eed75e3cef6fd692c3762cd8d8ba479a6d7c34763ddf71d",
@@ -79,6 +78,7 @@
         "eed235cfbdbc7b95f2f4eee67000d8ab83b983d4be8633a70010521b89010aca",
         "22b4528c760f40e4530d40aae28667b378420f1715822abf002aae2c2d1d3213",
         "faa6ad2135329a8fe700ddee781354b2cadfb53b612c8e550823008f83573545",
+        "03d72314a7ab55dd87406c94033263ddbf7bf210703b9dbd46fa5361523a5290",
         "6411c8d2068451011342252a352cfd8de7ad1c7f7ea79d53d5778a0c9610ca04",
         "c65429ed54acb91f0626fe269bac7e20c3d8a8be4adbf988e36007db0441bf7f",
         "31c9da42afba99e728788c7edcc1e657812db8b1bbd6bbb402b715b280549f74",
@@ -99,7 +99,6 @@
         "3102be60769bfaddccfe82ba5bb9d86f540bee11ef42f612047771eb7b50bd8c",
         "f6a7dc764072575103184e813b080aaf6a531bad0b6dc25ee03f36e15af0eaa3",
         "db9608d56a6c6196c056143f3ef49f0ed4812e475e48aedf46e60c0bd52ce8e1",
-        "0ec88c5a2a3677b284afd18d2211bc784743d0d8b3c4d3d615b25c3173d2ce7b",
         "abe23ac34036835f1ef0c5b0f7094a241392e3ac577ffa82759da1746ac08765",
         "bc146cdf7d80e348dde2296244ed1a47964f20e41a910aed67a9cae1f39f9239",
         "dc866362e20aecef48857e480462c8866c0cd7a1c8d281527b141f308c0deef7",
