@@ -1,19 +1,19 @@
 // ==UserScript==
 // @name         X List 成员标注
 // @namespace    yjli.x.listbadge
-// @version      1.20261025.1930
+// @version      1.20261027.1930
 // @description  浏览 x.com 时，给 List 1890215711097974970 中的成员：头像加圆环、@用户名后加 ★ 徽章
 // @match        https://x.com/*
 // @match        https://twitter.com/*
 // @run-at       document-idle
 // @grant        none
-// @x-list-hash  091b306d76f65172
+// @x-list-hash  fc781e6d77619f41
 // @x-list-generator  3
 // @license      MIT
 // ==/UserScript==
 //
 // 本文件由自动任务根据 X List 成员名单生成，请勿手改。
-// 名单：145 个成员，更新于 2026-10-25 19:30
+// 名单：146 个成员，更新于 2026-10-27 19:30
 
 (function () {
     'use strict';
@@ -48,6 +48,7 @@
         "7606ebde631cf426cf20f06fa7ffa5529c881adacfb52f6d273991e0cf4332ab",
         "2b9205585b26ed1d10e1970d6fa5bf2bf6c9031a4482a5fddd9a33f088111a20",
         "216414caa55f3f353d23b57527597ca6c1701d68c96220d6d577464c2617222b",
+        "08077d7bd3999ddf01c3a02ecef84041f5f59651be2a06f8dae0427673e4b64c",
         "5a7f40ddd816cba2c99eec66f422328f064d5d342d2c6755859aa1deea4c17b5",
         "a1367fbe0c4a5ed23840d1c82f1d8cef67e3f31d8018beded2e06b4c641aa97b",
         "4dead3b72cd4c291f160560a36b64d9361100e4c2cd50ef4a778718d31167ed1",
